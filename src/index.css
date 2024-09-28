@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,500;1,500&display=swap');
+
+:root{
+  --greend-emphasis: #81FE88;
+  --green-pastel: #BFFFC3;
+  --green-petroleum: #132E35;
+  --graphite: #01080E;
+  --dark-gray: #171D1F;
+  --gray: #3E3E3F;
+  --average-gray: #888888;
+  --light-gray: #BCBCBC;
+  --offwhite: #E1E1E1;
+  --white: #FFFFFF;
+  --fonte: 'Prompt', sans-serif;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--graphite);
+  font-family: var(--fonte);
+}
