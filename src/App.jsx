@@ -2,13 +2,17 @@ import { useState } from 'react'
 import './App.css'
 import Sidebar from './components/Sidebar'
 import SearchBar from './components/SearchBar'
+import Filter from './components/Filter'
 
 function App() {
 
   return (
     <div className='container'>
       <Sidebar />
-      <SearchBar />
+      <div>
+        <SearchBar />
+        <Filter />
+        </div>
     </div>
   )
 }
